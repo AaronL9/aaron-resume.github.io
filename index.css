@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.header-container {
+    width: 28%;
+    margin: 30px 0 0 50px;
+    float: left;
+}
+
+.header-name {
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+#text {
+    font-size: 15px;
+    font-weight: 100;
+} 
+
+.header-list ul {
+    list-style-type: none;
+    font-family: Helvetica, sans-serif;
+    height: 40px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+.header-list li {
+    float: left;
+    padding: 15px;
+    border-right: solid black 1px;
+    height: 9px;
+    font-size: 17px;
+}
+
+.header-list a:link, .header-list a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header-list a:hover, .header-list a:active {
+    color: rgb(194, 142, 12);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.button:link, .button.visited, .button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+   }
+   
+   .button:hover {
+    background-color: #cc7722;
+    box-shadow: 0px 15px 20px rgba(201, 117, 33, 0.6);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.button:active {
+    transform: translateY(-1px);
+}
+

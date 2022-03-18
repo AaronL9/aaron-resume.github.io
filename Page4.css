@@ -1,0 +1,114 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body, input {
+    background-color: rgb(243, 243, 243);
+}
+
+.Info {
+    margin-left: 12%;   
+    float: left;
+}
+
+input {
+    width: 190px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px inset rgb(197, 197, 197)
+}
+
+label {
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec1 {
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+.form1 {
+    float: left;
+    margin: 1.5px 9% 0 20%;
+}
+
+.form2 {
+    margin-top: 15px;
+}
+
+.sec2 {
+    margin-left: 40%;
+}
+
+.sec3 {
+    margin-top: 15px;
+    margin-left: 23%;
+}
+
+.message {
+    width: 300px;
+    height: 150px;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 7.3% 0 0 3%;
+    border: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+}
+
+#Contact, #Email, #Social, #Copyright {
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+    text-align: justify;
+    width: 300px;
+    margin-left: 3%;
+    margin-top: 0;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
